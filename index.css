@@ -12,7 +12,7 @@ body {
 .header {
     height: 90px;
     width: 100%;
-    background: red;
+    background: rgba(220,220,220,.6);
     overflow: hidden;
 }
 
