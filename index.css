@@ -1,28 +1,29 @@
-html,body{
+html,
+body {
     width: 100%;
     height: 100%;
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-.header{
+.header {
     height: 90px;
     width: 100%;
     background: red;
     overflow: hidden;
 }
 
-.main{
+.main {
     position: absolute;
     width: 100%;
     top: 100px;
     bottom: 0;
 }
 
-.nav{
+.nav {
     width: 200px;
     position: absolute;
     top: 0;
@@ -30,7 +31,7 @@ html,body{
     background: green;
 }
 
-.content{
+.content {
     position: absolute;
     left: 210px;
     right: 0;
@@ -38,13 +39,14 @@ html,body{
     background: #FF0;
 }
 
-.nav-list{
+.nav-list {
     width: 100%;
     background: #0ff;
     padding: 12px;
     box-sizing: border-box;
 }
-.nav-list li{
+
+.nav-list li {
     width: 100%;
     text-align: center;
     height: 48px;
@@ -53,7 +55,7 @@ html,body{
     cursor: pointer;
 }
 
-.header .logo{
+.header .logo {
     width: 48px;
     height: 48px;
     margin-left: 24px;
@@ -61,17 +63,28 @@ html,body{
     border-radius: 50%;
     float: left;
 }
-.header .logo img{
+
+.header .logo img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
 
-.header .userinfo{
+.header .userinfo {
     float: right;
     line-height: 90px;
     margin-right: 24px;
     padding: 6px;
     box-sizing: border-box;
     border: 1px solid #00F;
+}
+
+.content .footer {
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background: #f0f;
+    position: absolute;
+    bottom: 0;
 }
